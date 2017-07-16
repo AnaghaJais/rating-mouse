@@ -318,7 +318,7 @@ a.pure-button-primary {
 
 .googleScore,
 .healthRating {
-font-size: 50px;  
+font-size: 50px;
 color: #F38630;
 padding: 20px;
 margin:30px;
@@ -328,6 +328,7 @@ background: #E0E4CC;
 position: relative;
 float: left;
 }
+
 
 .gScore {
   position: absolute;
@@ -347,6 +348,7 @@ padding: 20px;
 color: #A7C5D0;
 display: inline-block;
 }
+
 
 
 /* Optional: Makes the sample page fill the window. */
@@ -433,8 +435,6 @@ html, body {
   font-weight: 500;
   padding: 6px 12px;
 }
-
-
 /* Added css for name,email and password inputs***/
 input[type=text],
 input[type=email],
@@ -447,4 +447,3 @@ input[type=password]{
     border-radius: 4px;
     box-sizing: border-box;
 }
-

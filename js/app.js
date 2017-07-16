@@ -76,6 +76,7 @@ firebase.auth().onAuthStateChanged(function(user) {
 
 
 
+
 //==========================   VARIABLES   ==========================//
 //------------------   Google Geolocation Variables   ------------------//
 var map;
@@ -407,7 +408,7 @@ function initMap() {
       } else {
         //alert("no matching data found");
         //Added error messages
-        $(".restaurantName").html("Please search with a proper restaurant name");
+        $(".restaurantName").html("Data Unavailable");
         $(".googleScore").html("");
         $(".inspectDate").html("");
         $(".healthRating").html("");
@@ -429,4 +430,3 @@ function initMap() {
 
 
 //=======================   END  =======================//
-
